@@ -1,6 +1,5 @@
 <template>
   <svg ref="svgRef"/>
-  <img alt="Vue logo" src="@/assets/logo.png">
 </template>
 <script>
 import {onMounted, onUpdated, ref} from "vue";
@@ -10,9 +9,9 @@ import {Markmap} from 'markmap-view';
 const transformer = new Transformer();
 const initValue = `
 # architecture
-- <img src="https://miro.medium.com/v2/resize:fit:1200/1*XvJ0GDWOAEHNApZvw-dOVQ.png" width="100" height="80"/>
+- <img src="https://variwiki.com/images/a/a1/Docker.png" width="100" height="80"/>
   docker
-- <img src="@/assets/logo.png" width="100" height="80">
+- <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png" width="100" height="80">
   kubernetes
 `;
 
