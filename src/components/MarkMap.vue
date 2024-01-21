@@ -11,8 +11,30 @@ const initValue = `
 # architecture
 - <img src="https://variwiki.com/images/a/a1/Docker.png" width="100" height="80"/>
   docker
+  - dockerfile
+    - FROM
+    - WORKDIR
+    - COPY
+    - ENV
+    - RUN
+    - CMD
+    - EXPOSE
+  - docker-compose
+    - services
+    - image
+    - ports
+    - volumes
+    - environment
 - <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png" width="100" height="80">
   kubernetes
+    - installation
+    - master node
+      - kubectl
+      - etcd
+    - worker node
+      - deployment
+      - service
+      - pods
 `;
 
 export default {
