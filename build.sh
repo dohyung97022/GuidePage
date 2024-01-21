@@ -1,3 +1,3 @@
 vue build
-rm -r -y docs
+rm -r docs
 mv dist docs
